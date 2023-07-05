@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form table </title>
+    <style>
+        body{
+            background-color: rgb(240, 238, 225, );
+        }
+        table{
+            box-shadow: 2px 2px 2px 10px black;
+        }
+        thead{
+            background-color: brown;
+            color: white;
+            height: 150px;
+            width: 160pc;
+        }
+        tbody{
+            
+        }          
+        table{
+            margin-left: 15%;
+            border-bottom-left: 100%;
+            border-right: 100%;
+            
+        }
+        .i1{
+            background-color: brown;
+            height: 50px;
+            width: 150px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <table cellspacin="0" width="70%">
+            <thead height="150px">
+                <tr>
+                    <th colspan="5">
+                        <h1>Movies Survey </h1>
+
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="3"><br></td>
+              </tr>
+              <tr>
+                <!--1.what is gender-->
+                <td><label for="gender">1.what is your gender</label></td>
+                <td><input type="radio" name="gender" required>female</td>
+                <td><input type="radio" name="gender" required>male</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td colspan="3"><input type="radio" name="gender" required>Prefer not to answer</td>
+                <td colspan="3"><input type="radio" name="gender" required > other</td>
+            </tr>
+            
+            <td colspan="3"><br><br></td>
+          </tr>
+              <tr>
+                         <!--2.what is your age-->
+                <td ><label for="">2.what is your age?</label></td>
+                <td colspan="3"><input type="number" class="age" name="age" required placeholder="ex:19"></td>
+              </tr>
+              <tr>
+                <td colspan="3"><br><br></td>
+              </tr>
+              <tr>
+                <!--3.what is your highest level of education-->
+                <td><label for="education">3.what is your highest level of education</label></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">High school</td>
+                <td colspan="3"><input type="radio"> Associate degree</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td colspan="3"><input type="radio"> Bachelor's degree</td>
+                <td colspan="3"><input type="radio"> Master's degree</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td colspan="3"><input type="radio"> professionl degree</td>
+                <td colspan="3"><input type="radio"> Doctorate degree</td>
+             </tr>
+             <tr>
+                <td></td>
+                <td colspan="3"><input type="radio"> other</td>
+            </tr>
+            <tr>
+                <td colspan="3"><br><br></td>
+            </tr> 
+            <tr>
+                <!--4.What are you favorite types of movies?select up to 3.-->
+                <td><label for="movie">4.What are you favorite types of movies?select up to 3.</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">action and adventure</td>
+                <td colspan="3"><input type="radio"> Animation</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio"> comedy</td>
+                <td colspan="3"><input type="radio"> Drama</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">Historical</td>
+                <td colspan="3"><input type="radio"> Horror</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">Science fiction</td>
+                <td colspan="3"><input type="radio">Western</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="radio">other</td>
+            </tr>
+            <tr>
+                <td><br><br></td>
+            </tr>
+            <tr>
+                <!--5.what is the most important reason that you want to se a movie?-->
+                <td><label for="inportant movie">5.what is the most important reason that you want to se a movie?</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">Trailers</td>
+                 <td colspan="3"><input type="radio">Advertisements</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">comments</td>
+                <td colspan="3"><input type="radio">Cast</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">Recommendation</td>
+                <td colspan="3"><input type="radio">other</td>
+            </tr>
+            <tr>
+                <td colspan="3"><br><br></td>
+            </tr>
+            <tr>
+                <!--6.What is the most inportant element for you in a movie?-->
+                <td><label for="element">6.What is the most inportant element for you in a movie?</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">content</td>
+                <td colspan="3"><input type="radio">Characterization</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">Cinema Effects</td>
+                <td colspan="3"><input type="radio">soundtrack</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">other</td>
+            </tr>
+            <tr>
+                <td><br><br></td>
+            </tr>
+            <!--7.How often do you watch a movie?-->
+            <tr>
+                <td><label for="How">7.How often do you watch a movie?</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">Extremely often </td>
+                <td colspan="3"><input type="radio">Very often</td>
+             </tr>
+             <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">MOderately often</td>
+                <td colspan="3"><input type="radio">Slightly often</td>
+             </tr>
+             <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">other</td>
+             </tr>
+             <tr>
+                <td><br><br></td>
+             </tr>
+             <!--8.what is your favorite place to watch a movie-->
+             <tr>
+                <td><label for="How">8.what is your favorite place to watch a movie</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">Cinema</td>
+                <td colspan="3"><input type="radio">Online</td>
+             </tr>
+             <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">DVD</td>
+                <td colspan="3"><input type="radio">TV</td>
+             </tr>
+             <tr>
+                <td></td>
+                <td colspan="3"><input type="radio">other</td>
+             </tr>
+             <tr>
+                <td><br><br></td>
+             </tr>
+             <!--9.DO you want to see a male or a female lead in a movie? -->
+             <tr>
+                <td><label for="gender">9.DO you want to see a male or a female lead in a movie? </label></td>
+             </tr>
+             <tr>
+                <td></td>
+                <td colspan="3"><input type="radio" name="gender">Male</td>
+                <td colspan="3"><input type="radio" name="gender">Female</td>
+                <td colspan="3"><input type="radio" name="gender">Doesn't matter</td>
+             </tr>
+             <tr>
+                <td><br><br></td>
+             </tr>
+             <tr>
+                <td><label for="10">10.what is your favorite movie?</label></td>
+             </tr>
+             <tr>
+                <td colspan="3"><input type="text"></td>
+             </tr>
+             <tr>
+                <td><br><br></td>
+             </tr>
+             <tr>
+                <td></td>
+                <td colspan="3"><input type="submit" class="i1"></td>
+             </tr>
+             <tr>
+                <td><br><br><br></td>
+             </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
