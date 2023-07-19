@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practical3</title>
+</head>
+<body>
+    Q1:- Create simple table
+    <!-- Create simple table -->
+    <table border="1">
+        <tr>
+            <th><b>Firstname</b></th>
+            <th><b>Lastname</b></th>
+            <th><b>Age</b></th>
+        </tr>
+        <tr>
+            <td>utsav</td>
+            <td>ram</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>rohit</td>
+            <td>sharnma</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>hardik</td>
+            <td>pandiya</td>
+            <td>34</td>
+        </tr>
+    </table>
+    <br><br>
+    
+    Q2:- Create time table for your school
+    <!-- Create time table for your school -->
+   <center> <h1>TIME TABLE</h1> </center>
+   <table border="" width="1000px">
+   <tr>
+    <th>Day/period</th>
+    <th>I <br>9:30-10:20</th>
+    <th>II <br>10:20-11:10</th>
+    <th>III <br>11:10:-12:00</th>
+    <th>12:00-12:40</th>
+    <th>IV <br>12:40:-1:30</th>
+    <th>V <br>1:30-2:20</th>
+    <th>VI <br>2:20-3:10</th>
+    <th>VII <br>3:10-4:00</th>
+   </tr>
+   <tr>
+    <td>Mondy</td>
+    <td> Eng</td>
+    <td>Mat</td>
+    <td>Che</td>
+    <td rowspan="6" text align="center"><b>L<br>U <br>N <br>C <br>H </b></td>
+    <td colspan="3" text align="center">LAB</td>
+    <td>PHY</td>
+   </tr>
+   <tr>
+    <td>Tuesday</td>
+    <td colspan="3" text align="center">LAB</td>
+    <td>Eng</td>
+    <td>Che</td>
+    <td>Mat</td>
+    <td>SPORTS</td>
+   </tr>
+   <tr>
+    <td>wednesday</td>
+    <td>Mat</td>
+    <td>phy</td>
+    <td>Eng</td>
+    
+    <td>che</td>
+    <td colspan="3" text align="center">LIBARY</td>
+    </tr>
+    <tr>
+        <td>Thursday</td>
+        <td>phy</td>
+        <td>Eng</td>
+        <td>che</td>
+       <td colspan="3" text align="center">LAB</td>
+        <td>mat</td>
+       </tr>
+       <tr>
+        <td>Friday</td>
+        <td colspan="3" text align="center">LAB</td>
+        <td>mat</td>
+        <td>Che</td>
+        <td>Eng</td>
+        <td>PHY</td>
+       </tr>
+       <tr>
+        <td>Saturday</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td>Mat</td>
+        
+        <td colspan="3" text align="center">SEMINAR</td>
+        <td>SPORTS</td><br><br><hr></table>
+       </tr><br><br><hr>
+       Q3:-  Create table withcolspanrowspan example 4
+       <!-- Create table withcolspanrowspan example 4 -->
+       <table border="" width="800px">
+        <tr>
+         <th colspan="2">Cell 1</th>
+         <th>Cell 3</th>
+         <th>Cell 2</th>
+        </tr>
+        <tr>
+         <td rowspan="3" text align="center">Cell 4</td>
+         <td  text align="center">Cell 5</td>
+         <td  text align="center">Cell 6</td>
+         <td  text align="center">Cell 7</td>
+        </tr>
+        <tr>
+         <td colspan="3" text align="center">Cell 8</td>
+        </tr>
+        <tr>
+         <td  text align="center">Cell 9</td>
+         <td colspan="2"  text align="center">Cell 10</td>
+        </tr>
+    </table> <br><br><br>
+    Q4:-  Create invoice using table
+    <!-- Create invoice using table -->
+    <p style="text-align: center;">Advanced HTML tag for table using thead,tbody and tfoot </p>
+    <center>
+    <table border="1">
+       <tr>
+        <th colspan="4" style="text-align: center;">Purchase order:987654321</th>
+        <th colspan="2" style="text-align: center;">Tutorialbrain - 10th Oct 2020</th>
+       </tr>
+       <tr>
+        <td colspan="3"><b>vendor:</b><br>ABC XYZ ltd. <br>
+        DUMMY STREET <br>BUILDING 123
+        HAZAARIBA, JHARKHAND,825301</td>
+        <td colspan="3">
+            <b>SHIP TO:</b><br>
+            MS DHONI <br>
+            WILSON GARDEN <br>
+            SOUTHEAST BLOCK,RANCHI-8344001
+        </td>
+       </tr>
+       <tr>
+     
+            <th colspan="1" style="text-align: center;"><b>Qty</b></th>
+            <th colspan="2" style="text-align: center;"><b>item code.</b></th>
+            <th colspan="1"><b>Description</b></th>
+            <th colspan="2" style="text-align: center;">unit price </th>
+     </tr>
+     <tr>
+        <td>100</td>
+        <td colspan="2">LABCDE</td>
+        <td>pencils</td>
+        <td>20.00</td>
+     </tr>
+     <tr>
+        <td>1000</td>
+        <td colspan="2">IN877</td>
+        <td>Notebooks</td>
+        <td>100.00</td>  
+
+     </tr>
+     <tr>
+        <td>500</td>
+        <td colspan="2">IP8675</td>
+        <td>pens</td>
+        <td>70.00</td>
+     </tr>
+     <tr>
+        <td colspan="4" style="text-align: center;"><b>Subtotal</b></td>
+      <td>  190.00</td>
+     </tr>
+     <tr>
+        <td colspan="3" style="text-align: center;"><b>GST</b></td>
+        <td>5%</td>
+        <td colspan="2">9.50</td>
+     </tr>
+     <tr>
+        <td colspan="4" style="text-align: center;"><b>Grand Total</b></td>
+        <td>$ 199.50</td>
+     </tr>
+    </table></center>
+    Q5:- Create hotel menu.
+    <!-- Create hotel menu. -->
+    <dl>                                
+        <dt>Pizza</dt>
+        <dd>Margherita----------------------600/- </dd>
+        <dd>Diavala----------------------700/-</dd>
+        <dd>San Matteo----------------------750/-</dd>
+        <dd>Quattaro Formaggio----------------------800/-</dd>
+        <dd>Shrima pepperonico----------------------750/-</dd>
+        <dd>Beef classico----------------------750/-</dd>
+        <dd>Smoked Beef----------------------850/-</dd>
+         <br><br>
+         <dt>PASTA</dt>
+         <dd>Fettuccine Alfredo-----------------650/-</dd>
+         <dd>Penne Arrabbiata-----------------600/-</dd>
+         <br><br>
+         <dt>WINGS</dt>
+         <dd>Honey------------400/-</dd>
+         <dd>HOT Karean------------400/-</dd>
+         <dd>Sweet and sour------------400/-</dd>
+         <dd>BBQ------------350/-</dd>
+    </dl>
+    <br><br>
+    Q6:-  Create index page for your book
+
+    <!--  Create index page for your book -->
+    <table border="1" width="500px">
+        <tr>
+            <th colspan="3">index</th>
+        </tr>
+        <tr>
+            <th>SR. NO.</th>
+            <th>Topic</th>
+            <th>Page No.</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>How does the Internet Work</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>What is HTTP</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Basics of SEO</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>SDLC</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Protocol</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Responsive Web Designing</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Canvas, Svg</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Display Grid</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Practical Example: Change CSS</td>
+            <td>47</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>JSX</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Components</td>
+            <td>55</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Getting started in React</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>React Web App</td>
+            <td>72</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>React Keys</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Counter App Demo</td>
+            <td>120</td>
+        </tr>
+         </table>
+         <br><br>
+         Q7:-  Create list with different categories.
+
+         <!--  Create list with different categories. -->
+         <ol type="1" start="6">
+            <li>Ram</li>
+            <li>Ram</li>
+            <li>Ram</li>
+        </ol>
+        <ol type="A" start="5">
+            <li>Ram</li>
+            <li>Ram</li>
+            <li>Ram</li>
+        </ol>
+        <ol type="I" start="15">
+            <li>Ram</li>
+            <li>Ram</li>
+            <li>Ram</li>
+        </ol>
+        <ol type="i" start="10">
+            <li>Ram</li>
+            <li>Ram</li>
+            <li>Ram</li>
+        </ol>
+        <hr>
+        <ul>
+            <li>Ram</li>
+            <li>Ram</li>
+            <li>Ram</li>
+        </ul>
+        <ul type="square">
+            <li>Ram</li>
+            <li>Ram</li>
+            <li>Ram</li>
+        </ul>
+        <ul type="circle">
+            <li>Ram</li>
+            <li>Ram</li>
+            <li>Ram</li>
+        </ul>
+        <ul type="disc">
+            <li>Ram</li>
+            <li>Ram</li>
+            <li>Ram</li>
+        </ul>
+        <br><br><hr>
+        <dl>
+            <ol>
+            <dt><Li>laptop </Li></dt>
+            <dd><ul type="circle"><li>HP</li></ul></dd>
+            <dd><ul type="circle"><li>Appale</li></ul></dd>
+            <dd><ul type="circle"><li>lenovo</li></ul></dd>
+            <dt><li>tops technologies</li></dt>
+            <dd><ul type="square"><li>frontend developer</li></ul></dd>
+            <dd><ul type="square"><li>full stack developer</li></ul></dd>
+        </ol>
+        </dl>
+</body>
+</html>
