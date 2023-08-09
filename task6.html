@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+          background-color: black;  
+        }
+        .contenare
+        {
+            padding: 20px;
+            background-color: blue;
+            color: black;
+        }
+        .cont{
+            background-color: blueviolet;
+            width: 100%;
+            margin: 0 auto;
+        }
+        ul , li
+        {
+            display: flex;
+            justify-content: space-around;
+        }
+        .li-5
+        {
+            display: none;
+            position: relative;
+        }
+        .ul-2{
+            position: absolute;
+            top: 50px;
+           color: white;
+           margin-left: -15px;
+        }
+@media (max-width: 575.98px) 
+{
+   .contenare
+   {
+      background-color: blue;
+      color: rgb(0, 0, 0);
+   }
+    .li-5
+    {
+        display: block;
+    }
+    .li-1
+    {
+        display: none;
+    }
+    .ul-2
+    {
+        display: none;
+        line-height: 30px;
+        color: rgb(255, 255, 255);
+        text-align: start;        
+    }
+    .li-5:hover .ul-2
+    {
+        display: block;
+    }
+
+}
+
+@media (max-width: 767.98px) { }
+
+@media (max-width: 991.98px) { }
+
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 1399.98px) { }
+
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="maintetx">
+            <nav>
+                <div class="contenare">
+                    <ul type="none">
+                        <li class="li-1">Home</li>
+                        <li class="li-1">About</li>
+                        <li class="li-1">Blog</li>
+                        <li class="li-1">Shop</li>
+                        <li class="li-1">Contact</li>
+                        <li class="li-5"><i class="fa-solid fa-bars"></i>
+                            <div class="cont">
+                          <ul class="ul-2">
+                            <li>home</li>
+                            <li>About</li>
+                            <li>Blog</li>
+                            <li>Shop</li>
+                            <li>Contact</li>
+                          </ul>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
